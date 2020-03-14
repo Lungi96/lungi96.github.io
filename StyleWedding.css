@@ -1,0 +1,69 @@
+body{
+    background-image: url(Images/wedding-photographer-chantelle-visser-23.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+header{
+    width: 100%;
+    height: 59px;
+    background-color:#0009;
+}
+nav{
+    margin: 0px;
+}
+img{
+    margin-left: 25px;
+}
+ul{
+    display: block;
+    float: right;
+    width: 950px;
+}
+li{
+    list-style-type: none;
+    float: right;
+    border-left:2px solid activecaption;    
+   
+}
+a{
+    text-decoration: none;
+    color:rgb(197, 192, 193);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    border-radius: 35px;
+    
+}
+a:hover{
+    /* background-color:rgba(70, 70, 70,0.6); */
+    background-color: rgb(255, 147, 171);
+    transition: 0.9s;
+    color: white;
+}
+#container{
+    width: 100%;
+    /* height: 650px; */
+    background-color: #0003;
+    margin: auto;
+    float: left;
+    padding-bottom: 35px;
+}
+h1{
+    font-size: 4.5em;
+    width: 45%;
+    color: rgb(253, 253, 253);
+    margin: 120px 0px 0px 35px;
+    line-height: 85px;
+    text-transform: uppercase;
+    border-bottom: 1.8px solid white;
+}
+p{
+    font-size: 1.5em;
+    width: 85%;
+    color: white;
+    margin-left: 35px;
+    line-height: 25px;
+}

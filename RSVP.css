@@ -1,0 +1,108 @@
+body {
+    background-image: url(Images/wedding-photographer-chantelle-visser-23.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+header {
+    width: 100%;
+    height: 59px;
+    background-color: #0009;
+}
+
+nav {
+    margin: 0px;
+}
+
+img {
+    margin-left: 25px;
+}
+
+ul {
+    display: block;
+    float: right;
+    width: 950px;
+}
+
+li {
+    list-style-type: none;
+    float: right;
+    border-left: 2px solid activecaption;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(197, 192, 193);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    border-radius: 35px;
+}
+
+a:hover {
+    /* background-color:rgba(70, 70, 70,0.6); */
+    background-color: rgb(255, 147, 171);
+    transition: 0.9s;
+    color: white;
+}
+
+#bgForm{
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.548);
+    margin: auto;
+    height: 710px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 3px solid rgb(255, 147, 171);
+}
+
+form {
+    margin: 35px;
+}
+
+.labelCSS {
+    font-size: 1.5em;
+}
+
+.inputCSS {
+    width: 95%;
+    height: 28px;
+    font-size: 1.2em;
+    padding-left: 12px;
+    margin: 10px 0px 20px 0px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+textarea {
+    width: 95%;
+    height: 75px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    resize: none;
+}
+
+.button {
+    width: 65%;
+    height: 35px;
+    margin: auto;
+    margin-top: 30px;
+    border: 2px solid rgb(255, 147, 171);
+    border-radius: 10px;
+    background-color: grey;
+    transition: 0.9s;
+}
+.button:hover{
+    color: white;
+    background-color: rgb(255, 147, 171);
+    transition: 0.9s;
+}
+#centerSubmit{
+    text-align: center;
+    margin: auto;
+    
+}

@@ -1,0 +1,88 @@
+body {
+    background-image: url(Images/wedding-photographer-chantelle-visser-23.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+header{
+    width: 100%;
+    height: 59px;
+    background-color:#0009;
+}
+nav{
+    margin: 0px;
+}
+img{
+    margin-left: 25px;
+}
+ul{
+    display: block;
+    float: right;
+    width: 950px;
+}
+li{
+    list-style-type: none;
+    float: right;
+    border-left:2px solid activecaption;    
+   
+}
+a{
+    text-decoration: none;
+    color:rgb(197, 192, 193);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    border-radius: 35px;
+    
+}
+a:hover{
+    /* background-color:rgba(70, 70, 70,0.6); */
+    background-color: rgb(255, 147, 171);
+    transition: 0.9s;
+    color: white;
+}
+section{
+    /* filter: blur(24%); */
+    background-color: rgba(0, 0, 0, 0.26);
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    /* margin-top: -32px; */
+    float: left;
+}
+h3{
+    font-size: 2.5em;
+    color: rgb(255, 147, 171);
+    /* font-weight: 800; */
+    font-family: 'Playfair Display', serif;
+    
+}
+.thumbnails {
+    margin-left: 20px;
+}
+.thumbnails img {
+    height: 40px;
+    border: 4px solid rgb(255, 147, 171);
+    padding: 1px;
+    margin: 0 10px 10px 0;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.thumbnails img:hover {
+    border: 4px solid #00ccff;
+    cursor: -webkit-grabbing;
+    transition: 0.9s;
+}
+
+.preview img {
+    border: 4px solid rgb(255, 147, 171);
+    padding: 1px;
+    width: 800px;
+    border-radius: 10px;
+    transition: 0.9s;
+
+    
+}
